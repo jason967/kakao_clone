@@ -27,109 +27,38 @@
     </div>
 
     <header class="header">
+      <!-- left column-->
       <div class="header__header-coloumn">
-        <i class="fas fa-arrow-left fa-3x"></i>
+        <a href="more.html">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
         <h1 class="header__title">Settings</h1>
       </div>
-
+      <!-- Right column-->
       <div class="header__header-coloumn">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
       </div>
     </header>
 
-    <main class="friends">
-      <!--Me-->
-      <header class="friends__header">
-        <div class="friend__friend friend friend--lg">
-          <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                최재웅
-              </span>
-              <span class="friend__status">
-                카카오 가자 합격 기원!
-              </span>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- Plus Friend-->
-      <div class="friends__plus">
-        <h5 class="friends__plus-title">Plus friend</h5>
-        <div class="friend__friend friend friend">
-          <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Plus Friend
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- normal friends-->
-      <!-- Have to Rememeber All friends member have 2 columns!!!!-->
-      <ul class="friends__list">
-        <!-- change the friends memeber-->
-        <h5 class="friend__title">Friends 14</h5>
-        <li class="friend__friend friend friend">
-          <!-- Front colunm-->
-          <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                최재웅
-              </span>
-              <span class="friend__status">
-                카카오 가자 합격 기원!
-              </span>
-            </div>
-          </div>
-          <!-- Back column-->
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>
-                잔나비-주저하는 연인들을 위하여
-              </span>
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
-        </li>
-      </ul>
+    <main class="settings">
+      <section class="settings__sections">
+        <ul class="setting__list">
+          <li class="settings__setting">
+            <span class="settings__icon"><i class="fas fa-lock"></i> </span>
+            <span class="settings__title"> Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon"><i class="far fa-bell"></i> </span>
+            <span class="settings__title"> Notification</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon"> <i class="far fa-user"></i></span>
+            <span class="settings__title">Friends </span>
+          </li>
+        </ul>
+      </section>
     </main>
-
-    <!-- if you click have to fill the image -->
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user"></i
-          ></a>
-        </li>
-        <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
   </body>
 </html>
